@@ -25,6 +25,11 @@ const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'; // NON MODIFICARE QUESTA RIGA
 const firstName = 'Jane'; // NON MODIFICARE QUESTA RIGA
 const lastName = 'Smith'; // NON MODIFICARE QUESTA RIGA
 
+const myFirstName = alphabet.charAt(9) + alphabet.charAt(0) + alphabet.charAt(13) + alphabet.charAt(4)
+const myLastName = alphabet.charAt(18) + alphabet.charAt(12) + alphabet.charAt(8) + alphabet.charAt(19) + alphabet.charAt(7)
+const myFullName = `${myFirstName} ${myLastName}`;
+console.log(myFullName)
+
 const fullName = `${firstName} ${lastName}`;
 console.log(fullName); // Output: "Jane Smith"
 
